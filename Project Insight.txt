@@ -1,0 +1,272 @@
+* Three module implemented (module selection is case sensitive. please use lowercase)
+	search,sort,display
+* each module will take us to the respective flow
+	search - single criteria & multiple search criteria implemented
+	sort - sort by itemid,name,category implemented
+	display - display by category implemented
+
+Execution step:
+*data insertion is static. value is dynamic.
+*execute RetailInventoryManagement.java as a java application
+*please use lowercase for module selection
+*search:
+	-Integer assigned to identify the search criteria
+	-Enter integer value [single criteria search - one integer number acceptable , Multiple criteria search - integer no separated by comma]
+		Ex: single criteria search - 1 (or) 2 (or) 3 (or) 4 (or) 5
+		    Multiple criteria search - 1,2 (or) 1,4,2 (or) 4,2,3 (or) 1,2,3
+	- enter value for no of fields mentioned in above step
+	- module exit can be decided by giving Y/N
+*sort:
+	-sorting implemented for itemid,name&criteria
+	-input filed type as first step
+	-input value for chosen filed
+	-module exit can be decided by giving Y/N
+*display:
+	- product display implemented by category
+	- input the category to see the respective product details
+	- module exit can be decided by giving Y/N
+
+
+**********SORT OUTPUT****************
+Database Connected
+69  || SHIRT           || CLOTHING        || 1932            || 619
+79  || GOWN            || CLOTHING        || 639             || 1726
+106  || MOBILE          || ELECTRICAL      || 803             || 810
+109  || CHARGER         || ELECTRICAL      || 1610            || 267
+134  || LAPTOP          || ELECTRICAL      || 559             || 906
+274  || TABLET          || ELECTRICAL      || 1659            || 1930
+388  || TROUSERS        || CLOTHING        || 136             || 1193
+450  || SKIRT           || CLOTHING        || 1025            || 157
+525  || TOMATTO         || GROCERY         || 1760            || 215
+554  || HEADPHONE       || ELECTRICAL      || 871             || 1328
+569  || ONION           || GROCERY         || 67              || 1213
+678  || APPLE           || GROCERY         || 1898            || 1653
+708  || SCARF           || CLOTHING        || 538             || 1809
+850  || CABBAGE         || GROCERY         || 1167            || 1823
+881  || COAT            || CLOTHING        || 222             || 915
+924  || PLUGS           || ELECTRICAL      || 1264            || 1413
+1004  || JACKETS         || CLOTHING        || 917             || 469
+1100  || WIRES           || ELECTRICAL      || 1620            || 1277
+1148  || PAPAYA          || GROCERY         || 70              || 1012
+1374  || FITTINGS        || ELECTRICAL      || 1719            || 1896
+1459  || RICE            || GROCERY         || 1954            || 416
+1465  || SWEATER         || CLOTHING        || 321             || 1672
+1480  || POTATO          || GROCERY         || 1091            || 471
+1612  || SWITCHES        || ELECTRICAL      || 1589            || 318
+1637  || BANANA          || GROCERY         || 1081            || 1147
+1652  || FROCK           || CLOTHING        || 459             || 612
+1750  || T-SHIRT         || CLOTHING        || 867             || 310
+1754  || ORANGE          || GROCERY         || 877             || 1904
+1965  || EGG             || GROCERY         || 1798            || 1463
+1981  || CABLES          || ELECTRICAL      || 1801            || 1482
+Enter module which you want to explore, value expected :{ sort / search / display } sort
+Enter sort by value ,value expected :{ itemid / name / category } 
+category
+525  || TOMATTO    || GROCERY         || 1760  || 215
+569  || ONION      || GROCERY         || 67    || 1213
+678  || APPLE      || GROCERY         || 1898  || 1653
+850  || CABBAGE    || GROCERY         || 1167  || 1823
+1148  || PAPAYA     || GROCERY         || 70    || 1012
+1459  || RICE       || GROCERY         || 1954  || 416
+1480  || POTATO     || GROCERY         || 1091  || 471
+1637  || BANANA     || GROCERY         || 1081  || 1147
+1754  || ORANGE     || GROCERY         || 877   || 1904
+1965  || EGG        || GROCERY         || 1798  || 1463
+106  || MOBILE     || ELECTRICAL      || 803   || 810
+109  || CHARGER    || ELECTRICAL      || 1610  || 267
+134  || LAPTOP     || ELECTRICAL      || 559   || 906
+274  || TABLET     || ELECTRICAL      || 1659  || 1930
+554  || HEADPHONE  || ELECTRICAL      || 871   || 1328
+924  || PLUGS      || ELECTRICAL      || 1264  || 1413
+1100  || WIRES      || ELECTRICAL      || 1620  || 1277
+1374  || FITTINGS   || ELECTRICAL      || 1719  || 1896
+1612  || SWITCHES   || ELECTRICAL      || 1589  || 318
+1981  || CABLES     || ELECTRICAL      || 1801  || 1482
+69  || SHIRT      || CLOTHING        || 1932  || 619
+79  || GOWN       || CLOTHING        || 639   || 1726
+388  || TROUSERS   || CLOTHING        || 136   || 1193
+450  || SKIRT      || CLOTHING        || 1025  || 157
+708  || SCARF      || CLOTHING        || 538   || 1809
+881  || COAT       || CLOTHING        || 222   || 915
+1004  || JACKETS    || CLOTHING        || 917   || 469
+1465  || SWEATER    || CLOTHING        || 321   || 1672
+1652  || FROCK      || CLOTHING        || 459   || 612
+1750  || T-SHIRT    || CLOTHING        || 867   || 310
+*******Product sorted by Category*******
+do you want to exit sorting module (Y/N):
+N
+Enter sort by value ,value expected :{ itemid / name / category } 
+itemid
+1981  || CABLES     || ELECTRICAL      || 1801  || 1482
+1965  || EGG        || GROCERY         || 1798  || 1463
+1754  || ORANGE     || GROCERY         || 877   || 1904
+1750  || T-SHIRT    || CLOTHING        || 867   || 310
+1652  || FROCK      || CLOTHING        || 459   || 612
+1637  || BANANA     || GROCERY         || 1081  || 1147
+1612  || SWITCHES   || ELECTRICAL      || 1589  || 318
+1480  || POTATO     || GROCERY         || 1091  || 471
+1465  || SWEATER    || CLOTHING        || 321   || 1672
+1459  || RICE       || GROCERY         || 1954  || 416
+1374  || FITTINGS   || ELECTRICAL      || 1719  || 1896
+1148  || PAPAYA     || GROCERY         || 70    || 1012
+1100  || WIRES      || ELECTRICAL      || 1620  || 1277
+1004  || JACKETS    || CLOTHING        || 917   || 469
+924  || PLUGS      || ELECTRICAL      || 1264  || 1413
+881  || COAT       || CLOTHING        || 222   || 915
+850  || CABBAGE    || GROCERY         || 1167  || 1823
+708  || SCARF      || CLOTHING        || 538   || 1809
+678  || APPLE      || GROCERY         || 1898  || 1653
+569  || ONION      || GROCERY         || 67    || 1213
+554  || HEADPHONE  || ELECTRICAL      || 871   || 1328
+525  || TOMATTO    || GROCERY         || 1760  || 215
+450  || SKIRT      || CLOTHING        || 1025  || 157
+388  || TROUSERS   || CLOTHING        || 136   || 1193
+274  || TABLET     || ELECTRICAL      || 1659  || 1930
+134  || LAPTOP     || ELECTRICAL      || 559   || 906
+109  || CHARGER    || ELECTRICAL      || 1610  || 267
+106  || MOBILE     || ELECTRICAL      || 803   || 810
+79  || GOWN       || CLOTHING        || 639   || 1726
+69  || SHIRT      || CLOTHING        || 1932  || 619
+*******Product sorted by ID*******
+do you want to exit sorting module (Y/N):
+N
+Enter sort by value ,value expected :{ itemid / name / category } 
+y
+Invalid type
+do you want to exit sorting module (Y/N):
+Y
+**********SORT OUTPUT****************
+
+
+
+**********DISPLAY OUTPUT*************
+Database Connected
+71  || FROCK           || CLOTHING        || 1677            || 1528
+91  || CHARGER         || ELECTRICAL      || 60              || 668
+160  || APPLE           || GROCERY         || 362             || 1490
+171  || SCARF           || CLOTHING        || 237             || 1558
+216  || SWITCHES        || ELECTRICAL      || 358             || 1519
+247  || PAPAYA          || GROCERY         || 1044            || 993
+249  || HEADPHONE       || ELECTRICAL      || 1192            || 1164
+263  || CABLES          || ELECTRICAL      || 1714            || 1455
+334  || TROUSERS        || CLOTHING        || 416             || 1672
+430  || CABBAGE         || GROCERY         || 1181            || 1039
+671  || FITTINGS        || ELECTRICAL      || 615             || 774
+880  || PLUGS           || ELECTRICAL      || 1033            || 23
+886  || COAT            || CLOTHING        || 1888            || 939
+900  || TABLET          || ELECTRICAL      || 1623            || 1781
+924  || LAPTOP          || ELECTRICAL      || 1622            || 1412
+1275  || BANANA          || GROCERY         || 72              || 321
+1291  || SWEATER         || CLOTHING        || 719             || 1360
+1427  || SKIRT           || CLOTHING        || 1350            || 86
+1456  || ORANGE          || GROCERY         || 36              || 642
+1536  || JACKETS         || CLOTHING        || 252             || 1988
+1567  || SHIRT           || CLOTHING        || 832             || 375
+1593  || POTATO          || GROCERY         || 51              || 1617
+1611  || WIRES           || ELECTRICAL      || 1094            || 1351
+1629  || MOBILE          || ELECTRICAL      || 316             || 1301
+1656  || EGG             || GROCERY         || 964             || 479
+1665  || ONION           || GROCERY         || 955             || 497
+1698  || T-SHIRT         || CLOTHING        || 1217            || 85
+1775  || RICE            || GROCERY         || 1042            || 1721
+1777  || GOWN            || CLOTHING        || 1297            || 1214
+1830  || TOMATTO         || GROCERY         || 121             || 1452
+Enter module which you want to explore, value expected :{ sort / search / display } display
+Enter category to display items, expected value : {electrical / grocery / clothing}
+grocery
+****displaying products from selected category****
+160  || APPLE      || GROCERY         || 362   || 1490
+247  || PAPAYA     || GROCERY         || 1044  || 993
+430  || CABBAGE    || GROCERY         || 1181  || 1039
+1275  || BANANA     || GROCERY         || 72    || 321
+1456  || ORANGE     || GROCERY         || 36    || 642
+1593  || POTATO     || GROCERY         || 51    || 1617
+1656  || EGG        || GROCERY         || 964   || 479
+1665  || ONION      || GROCERY         || 955   || 497
+1775  || RICE       || GROCERY         || 1042  || 1721
+1830  || TOMATTO    || GROCERY         || 121   || 1452
+do you want to exit display module (Y/N):
+N
+Enter category to display items, expected value : {electrical / grocery / clothing}
+h
+Invalid Input
+do you want to exit display module (Y/N):
+electrical
+Enter correct value
+do you want to exit display module (Y/N):
+N
+Enter category to display items, expected value : {electrical / grocery / clothing}
+electrical
+****displaying products from selected category****
+91  || CHARGER    || ELECTRICAL      || 60    || 668
+216  || SWITCHES   || ELECTRICAL      || 358   || 1519
+249  || HEADPHONE  || ELECTRICAL      || 1192  || 1164
+263  || CABLES     || ELECTRICAL      || 1714  || 1455
+671  || FITTINGS   || ELECTRICAL      || 615   || 774
+880  || PLUGS      || ELECTRICAL      || 1033  || 23
+900  || TABLET     || ELECTRICAL      || 1623  || 1781
+924  || LAPTOP     || ELECTRICAL      || 1622  || 1412
+1611  || WIRES      || ELECTRICAL      || 1094  || 1351
+1629  || MOBILE     || ELECTRICAL      || 316   || 1301
+do you want to exit display module (Y/N):
+Y
+***********DISPLAY OUTPUT********************
+
+
+**********SEARCH OUTPUT********************
+Database Connected
+9  || ONION           || GROCERY         || 1121            || 355
+26  || SWITCHES        || ELECTRICAL      || 455             || 1623
+90  || LAPTOP          || ELECTRICAL      || 1212            || 732
+268  || EGG             || GROCERY         || 1048            || 802
+284  || TROUSERS        || CLOTHING        || 1434            || 1305
+396  || SHIRT           || CLOTHING        || 798             || 619
+403  || TABLET          || ELECTRICAL      || 543             || 1408
+478  || SCARF           || CLOTHING        || 1628            || 306
+550  || ORANGE          || GROCERY         || 659             || 885
+683  || GOWN            || CLOTHING        || 197             || 961
+782  || CABLES          || ELECTRICAL      || 1789            || 1442
+935  || PAPAYA          || GROCERY         || 352             || 501
+1051  || BANANA          || GROCERY         || 1602            || 720
+1055  || RICE            || GROCERY         || 1741            || 1715
+1106  || CHARGER         || ELECTRICAL      || 252             || 1389
+1153  || FITTINGS        || ELECTRICAL      || 857             || 1368
+1181  || WIRES           || ELECTRICAL      || 1856            || 599
+1195  || COAT            || CLOTHING        || 1414            || 1243
+1237  || T-SHIRT         || CLOTHING        || 1721            || 1592
+1248  || PLUGS           || ELECTRICAL      || 1884            || 467
+1293  || FROCK           || CLOTHING        || 404             || 299
+1374  || SKIRT           || CLOTHING        || 850             || 1812
+1459  || SWEATER         || CLOTHING        || 1763            || 1298
+1525  || TOMATTO         || GROCERY         || 1075            || 930
+1655  || HEADPHONE       || ELECTRICAL      || 1978            || 607
+1671  || JACKETS         || CLOTHING        || 884             || 462
+1764  || APPLE           || GROCERY         || 1755            || 59
+1765  || POTATO          || GROCERY         || 953             || 608
+1771  || CABBAGE         || GROCERY         || 415             || 1223
+1773  || MOBILE          || ELECTRICAL      || 43              || 623
+Enter module which you want to explore, value expected :{ sort / search / display } search
+integer value assigned to each field as 1:itemid,2:name,3:category,4:price,5:qty
+expected value:{ 1, / 2, / 3, / 4, / 5, / 1,2 / 2,3,4 ...any combination of above reference}
+1
+Enter ITEMID to search:
+12123
+do you want to exit search module (Y/N):
+N
+integer value assigned to each field as 1:itemid,2:name,3:category,4:price,5:qty
+expected value:{ 1, / 2, / 3, / 4, / 5, / 1,2 / 2,3,4 ...any combination of above reference}
+1
+Enter ITEMID to search:
+1773
+1773  || MOBILE     || ELECTRICAL      || 43    || 623
+do you want to exit search module (Y/N):
+N
+integer value assigned to each field as 1:itemid,2:name,3:category,4:price,5:qty
+expected value:{ 1, / 2, / 3, / 4, / 5, / 1,2 / 2,3,4 ...any combination of above reference}
+2
+Enter NAME to search:
+potato
+1765  || POTATO     || GROCERY         || 953   || 608
+do you want to exit search module (Y/N):
+Y
+**********SEARCH OUTPUT****************
